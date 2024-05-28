@@ -58,7 +58,7 @@ struct TaleScreenView: View {
                                     .aspectRatio(1, contentMode: .fit)
                             }
                             .clipShape(RoundedRectangle(cornerRadius: 16))
-                            .shadow(radius: 22, y: 8)
+                            .shadow(radius: 8, y: 8)
                             
                             VStack {
                                 Text(tale.title)
@@ -88,7 +88,7 @@ struct TaleScreenView: View {
                         .containerRelativeFrame(.horizontal)
                         .id(0)
                         
-                        ForEach(tale.history, id: \.id) { part in
+                        ForEach(Array(zip(tale.history.indices, tale.history)), id: \.0) { index, part in
                             VStack(spacing: 32) {
                                 Spacer()
                                 
@@ -101,7 +101,7 @@ struct TaleScreenView: View {
                                         }
                                     }
                                     .clipShape(RoundedRectangle(cornerRadius: 8))
-                                    .shadow(radius: 22, y: 8)
+                                    .shadow(radius: 8, y: 8)
                                 
                                 Spacer()
                                 
@@ -117,13 +117,14 @@ struct TaleScreenView: View {
                                 
                                 Spacer()
                             }
-                            .id(part.id + 1)
+                            .id(index + 1)
                         }
                         
                         VStack(spacing: 16) {
                             Spacer()
                             
                             Text("Fim")
+                                .font(.title)
                                 .foregroundStyle(.white)
                             
                             Spacer()

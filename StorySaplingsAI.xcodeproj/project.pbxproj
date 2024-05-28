@@ -24,6 +24,7 @@
 		D5901E0C2BFE27ED00950CA1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D5901E0B2BFE27ED00950CA1 /* FirebaseStorage */; };
 		D5901E0E2BFE27ED00950CA1 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = D5901E0D2BFE27ED00950CA1 /* FirebaseVertexAI-Preview */; };
 		D595AB582BFFC9C30091A57E /* TaleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595AB572BFFC9C30091A57E /* TaleScreenView.swift */; };
+		D5B9E01C2C06809B00D54DCF /* the_three_little_pigs_cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5B9E01B2C06809B00D54DCF /* the_three_little_pigs_cover.jpg */; };
 		D5F55E0D2BFE2DF7000ABFCC /* Tale.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F55E0C2BFE2DF7000ABFCC /* Tale.swift */; };
 		D5F55E102BFE31C7000ABFCC /* TaleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F55E0F2BFE31C7000ABFCC /* TaleStore.swift */; };
 		D5F55E122BFE55CE000ABFCC /* CardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F55E112BFE55CE000ABFCC /* CardsList.swift */; };
@@ -61,6 +62,7 @@
 		D5901DF72BFE225000950CA1 /* StorySaplingsAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySaplingsAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D5901E052BFE26AE00950CA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D595AB572BFFC9C30091A57E /* TaleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaleScreenView.swift; sourceTree = "<group>"; };
+		D5B9E01B2C06809B00D54DCF /* the_three_little_pigs_cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_three_little_pigs_cover.jpg; sourceTree = "<group>"; };
 		D5F55E0C2BFE2DF7000ABFCC /* Tale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tale.swift; sourceTree = "<group>"; };
 		D5F55E0F2BFE31C7000ABFCC /* TaleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaleStore.swift; sourceTree = "<group>"; };
 		D5F55E112BFE55CE000ABFCC /* CardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsList.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		D5901E042BFE26A300950CA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D5B9E01B2C06809B00D54DCF /* the_three_little_pigs_cover.jpg */,
 				D5901E052BFE26AE00950CA1 /* GoogleService-Info.plist */,
 			);
 			path = Resources;
@@ -346,6 +349,7 @@
 				D5901DE22BFE225000950CA1 /* Preview Assets.xcassets in Resources */,
 				D5901DDF2BFE225000950CA1 /* Assets.xcassets in Resources */,
 				D5901E062BFE26AE00950CA1 /* GoogleService-Info.plist in Resources */,
+				D5B9E01C2C06809B00D54DCF /* the_three_little_pigs_cover.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,8 +16,7 @@ struct Tale: Hashable, Identifiable {
     let author: String
 }
 
-struct StoryPart: Hashable, Identifiable {
-    let id: Int
+struct StoryPart: Hashable {
     let text: String
     let image: URL
 }
@@ -32,7 +31,6 @@ extension Tale {
                 cover: URL(string: "https://images.playground.com/35d260d2baf641198c422c9e14784ca7.jpeg")!,
                 history: [
                     .init(
-                        id: 0,
                         text: """
                         Três porquinhos saíram, querendo construir
                         Casas próprias, para nelas poderem residir.
@@ -44,7 +42,6 @@ extension Tale {
                         image: URL(string: "https://moralstoryminute.com/wp-content/uploads/2023/11/The-Three-Little-Pigs-Story-with-Moral.jpg")!
                     ),
                     .init(
-                        id: 1,
                         text: """
                         Três porquinhos saíram, querendo construir
                         Casas próprias, para nelas poderem residir.
@@ -56,7 +53,6 @@ extension Tale {
                         image: URL(string: "https://www.fairylando.com/wp-content/uploads/2022/05/The-Three-Little-Pigs-1.jpg")!
                     ),
                     .init(
-                        id: 2,
                         text: """
                         Os dois porquinhos correram, cheios de medo,
                         Para a casa de tijolos, encontrar um segredo.
@@ -68,7 +64,6 @@ extension Tale {
                         image: URL(string: "https://www.qad.com/blog/wp-content/uploads/2021/02/02.25.2021.png")!
                     ),
                     .init(
-                        id: 3,
                         text: """
                         Os três porquinhos, juntos, celebraram,
                         A força e a coragem que demonstraram.
@@ -80,7 +75,6 @@ extension Tale {
                         image: URL(string: "https://artifactsgallery.com/art/20925.jpg")!
                     ),
                     .init(
-                        id: 4,
                         text: """
                         Assim viveram, sem mais medo ou temor,
                         Na casa de tijolos, onde reinava o amor.
