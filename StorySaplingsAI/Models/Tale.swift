@@ -28,7 +28,7 @@ extension Tale {
             .init(
                 id: 1,
                 title: "Os 3 porquinhos",
-                cover: URL(string: "https://images.playground.com/35d260d2baf641198c422c9e14784ca7.jpeg")!,
+                cover: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/the_three_little_pigs_cover.jpg?raw=true")!,
                 history: [
                     .init(
                         text: """
@@ -40,17 +40,6 @@ extension Tale {
                         Trabalho árduo, mas firme, sem rolos.
                         """,
                         image: URL(string: "https://moralstoryminute.com/wp-content/uploads/2023/11/The-Three-Little-Pigs-Story-with-Moral.jpg")!
-                    ),
-                    .init(
-                        text: """
-                        Três porquinhos saíram, querendo construir
-                        Casas próprias, para nelas poderem residir.
-                        O primeiro usou palha, fácil e ligeira,
-                        O segundo escolheu madeira, obra passageira.
-                        O terceiro, mais sábio, optou por tijolos,
-                        Trabalho árduo, mas firme, sem rolos.
-                        """,
-                        image: URL(string: "https://www.fairylando.com/wp-content/uploads/2022/05/The-Three-Little-Pigs-1.jpg")!
                     ),
                     .init(
                         text: """
@@ -73,17 +62,6 @@ extension Tale {
                         Que esforço e prudência trazem mais valor.
                         """,
                         image: URL(string: "https://artifactsgallery.com/art/20925.jpg")!
-                    ),
-                    .init(
-                        text: """
-                        Assim viveram, sem mais medo ou temor,
-                        Na casa de tijolos, onde reinava o amor.
-                        A história dos porquinhos, todos lembravam,
-                        E a lição de vida sempre ensinavam:
-                        Construir com cuidado é o melhor caminho,
-                        Para viver em paz, com carinho e carinho.
-                        """,
-                        image: URL(string: "https://www.pluggedin.com/wp-content/uploads/2020/01/true-story-of-the-three-little-pigs-cover-image.jpeg")!
                     )
                 ],
                 isFree: false,
