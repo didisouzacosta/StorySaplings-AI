@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D587D8F02C00E61000FB0B9D /* SafeArray+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D587D8EF2C00E61000FB0B9D /* SafeArray+Extension.swift */; };
+		D587D8F32C00FB7800FB0B9D /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = D587D8F22C00FB7800FB0B9D /* Nuke */; };
+		D587D8F52C00FB7800FB0B9D /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = D587D8F42C00FB7800FB0B9D /* NukeExtensions */; };
+		D587D8F72C00FB7800FB0B9D /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = D587D8F62C00FB7800FB0B9D /* NukeUI */; };
+		D587D8F92C00FB7800FB0B9D /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = D587D8F82C00FB7800FB0B9D /* NukeVideo */; };
 		D5901DDB2BFE224E00950CA1 /* StorySaplingsAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5901DDA2BFE224E00950CA1 /* StorySaplingsAIApp.swift */; };
-		D5901DDD2BFE224E00950CA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5901DDC2BFE224E00950CA1 /* ContentView.swift */; };
+		D5901DDD2BFE224E00950CA1 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5901DDC2BFE224E00950CA1 /* MainScreenView.swift */; };
 		D5901DDF2BFE225000950CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5901DDE2BFE225000950CA1 /* Assets.xcassets */; };
 		D5901DE22BFE225000950CA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5901DE12BFE225000950CA1 /* Preview Assets.xcassets */; };
 		D5901DEC2BFE225000950CA1 /* StorySaplingsAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5901DEB2BFE225000950CA1 /* StorySaplingsAITests.swift */; };
 		D5901DF62BFE225000950CA1 /* StorySaplingsAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5901DF52BFE225000950CA1 /* StorySaplingsAIUITests.swift */; };
 		D5901DF82BFE225000950CA1 /* StorySaplingsAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5901DF72BFE225000950CA1 /* StorySaplingsAIUITestsLaunchTests.swift */; };
+		D5901E062BFE26AE00950CA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5901E052BFE26AE00950CA1 /* GoogleService-Info.plist */; };
+		D5901E0A2BFE27ED00950CA1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D5901E092BFE27ED00950CA1 /* FirebaseAnalytics */; };
+		D5901E0C2BFE27ED00950CA1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D5901E0B2BFE27ED00950CA1 /* FirebaseStorage */; };
+		D5901E0E2BFE27ED00950CA1 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = D5901E0D2BFE27ED00950CA1 /* FirebaseVertexAI-Preview */; };
+		D595AB582BFFC9C30091A57E /* TaleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595AB572BFFC9C30091A57E /* TaleScreenView.swift */; };
+		D5F55E0D2BFE2DF7000ABFCC /* Tale.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F55E0C2BFE2DF7000ABFCC /* Tale.swift */; };
+		D5F55E102BFE31C7000ABFCC /* TaleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F55E0F2BFE31C7000ABFCC /* TaleStore.swift */; };
+		D5F55E122BFE55CE000ABFCC /* CardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F55E112BFE55CE000ABFCC /* CardsList.swift */; };
+		D5F55E142BFE56C2000ABFCC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F55E132BFE56C2000ABFCC /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D587D8EF2C00E61000FB0B9D /* SafeArray+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SafeArray+Extension.swift"; sourceTree = "<group>"; };
 		D5901DD72BFE224E00950CA1 /* StorySaplingsAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorySaplingsAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5901DDA2BFE224E00950CA1 /* StorySaplingsAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySaplingsAIApp.swift; sourceTree = "<group>"; };
-		D5901DDC2BFE224E00950CA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5901DDC2BFE224E00950CA1 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		D5901DDE2BFE225000950CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5901DE12BFE225000950CA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5901DE72BFE225000950CA1 /* StorySaplingsAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorySaplingsAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,12 @@
 		D5901DF12BFE225000950CA1 /* StorySaplingsAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorySaplingsAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5901DF52BFE225000950CA1 /* StorySaplingsAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySaplingsAIUITests.swift; sourceTree = "<group>"; };
 		D5901DF72BFE225000950CA1 /* StorySaplingsAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySaplingsAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5901E052BFE26AE00950CA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D595AB572BFFC9C30091A57E /* TaleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaleScreenView.swift; sourceTree = "<group>"; };
+		D5F55E0C2BFE2DF7000ABFCC /* Tale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tale.swift; sourceTree = "<group>"; };
+		D5F55E0F2BFE31C7000ABFCC /* TaleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaleStore.swift; sourceTree = "<group>"; };
+		D5F55E112BFE55CE000ABFCC /* CardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsList.swift; sourceTree = "<group>"; };
+		D5F55E132BFE56C2000ABFCC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5901E0E2BFE27ED00950CA1 /* FirebaseVertexAI-Preview in Frameworks */,
+				D5901E0A2BFE27ED00950CA1 /* FirebaseAnalytics in Frameworks */,
+				D587D8F92C00FB7800FB0B9D /* NukeVideo in Frameworks */,
+				D5901E0C2BFE27ED00950CA1 /* FirebaseStorage in Frameworks */,
+				D587D8F72C00FB7800FB0B9D /* NukeUI in Frameworks */,
+				D587D8F32C00FB7800FB0B9D /* Nuke in Frameworks */,
+				D587D8F52C00FB7800FB0B9D /* NukeExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D587D8EE2C00E5FE00FB0B9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D587D8EF2C00E61000FB0B9D /* SafeArray+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D5901DCE2BFE224E00950CA1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +130,12 @@
 		D5901DD92BFE224E00950CA1 /* StorySaplingsAI */ = {
 			isa = PBXGroup;
 			children = (
+				D587D8EE2C00E5FE00FB0B9D /* Extensions */,
+				D595AB532BFFC9620091A57E /* Screens */,
+				D5F55E0E2BFE31BC000ABFCC /* Store */,
+				D5F55E0B2BFE2DEA000ABFCC /* Models */,
+				D5901E042BFE26A300950CA1 /* Resources */,
 				D5901DDA2BFE224E00950CA1 /* StorySaplingsAIApp.swift */,
-				D5901DDC2BFE224E00950CA1 /* ContentView.swift */,
 				D5901DDE2BFE225000950CA1 /* Assets.xcassets */,
 				D5901DE02BFE225000950CA1 /* Preview Content */,
 			);
@@ -127,6 +167,65 @@
 			path = StorySaplingsAIUITests;
 			sourceTree = "<group>";
 		};
+		D5901E042BFE26A300950CA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5901E052BFE26AE00950CA1 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D595AB532BFFC9620091A57E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D595AB562BFFC9B50091A57E /* TaleScreen */,
+				D595AB542BFFC9800091A57E /* MainScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D595AB542BFFC9800091A57E /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D595AB552BFFC9AA0091A57E /* Components */,
+				D5901DDC2BFE224E00950CA1 /* MainScreenView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		D595AB552BFFC9AA0091A57E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D5F55E112BFE55CE000ABFCC /* CardsList.swift */,
+				D5F55E132BFE56C2000ABFCC /* Card.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D595AB562BFFC9B50091A57E /* TaleScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D595AB572BFFC9C30091A57E /* TaleScreenView.swift */,
+			);
+			path = TaleScreen;
+			sourceTree = "<group>";
+		};
+		D5F55E0B2BFE2DEA000ABFCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5F55E0C2BFE2DF7000ABFCC /* Tale.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5F55E0E2BFE31BC000ABFCC /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				D5F55E0F2BFE31C7000ABFCC /* TaleStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +242,15 @@
 			dependencies = (
 			);
 			name = StorySaplingsAI;
+			packageProductDependencies = (
+				D5901E092BFE27ED00950CA1 /* FirebaseAnalytics */,
+				D5901E0B2BFE27ED00950CA1 /* FirebaseStorage */,
+				D5901E0D2BFE27ED00950CA1 /* FirebaseVertexAI-Preview */,
+				D587D8F22C00FB7800FB0B9D /* Nuke */,
+				D587D8F42C00FB7800FB0B9D /* NukeExtensions */,
+				D587D8F62C00FB7800FB0B9D /* NukeUI */,
+				D587D8F82C00FB7800FB0B9D /* NukeVideo */,
+			);
 			productName = StorySaplingsAI;
 			productReference = D5901DD72BFE224E00950CA1 /* StorySaplingsAI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +323,10 @@
 				Base,
 			);
 			mainGroup = D5901DCE2BFE224E00950CA1;
+			packageReferences = (
+				D5901E082BFE27ED00950CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D587D8F12C00FB7800FB0B9D /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = D5901DD82BFE224E00950CA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +345,7 @@
 			files = (
 				D5901DE22BFE225000950CA1 /* Preview Assets.xcassets in Resources */,
 				D5901DDF2BFE225000950CA1 /* Assets.xcassets in Resources */,
+				D5901E062BFE26AE00950CA1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +370,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5901DDD2BFE224E00950CA1 /* ContentView.swift in Sources */,
+				D5F55E122BFE55CE000ABFCC /* CardsList.swift in Sources */,
+				D5F55E142BFE56C2000ABFCC /* Card.swift in Sources */,
+				D587D8F02C00E61000FB0B9D /* SafeArray+Extension.swift in Sources */,
+				D5901DDD2BFE224E00950CA1 /* MainScreenView.swift in Sources */,
+				D5F55E102BFE31C7000ABFCC /* TaleStore.swift in Sources */,
 				D5901DDB2BFE224E00950CA1 /* StorySaplingsAIApp.swift in Sources */,
+				D5F55E0D2BFE2DF7000ABFCC /* Tale.swift in Sources */,
+				D595AB582BFFC9C30091A57E /* TaleScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +549,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +579,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +709,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D587D8F12C00FB7800FB0B9D /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+		D5901E082BFE27ED00950CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D587D8F22C00FB7800FB0B9D /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D587D8F12C00FB7800FB0B9D /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		D587D8F42C00FB7800FB0B9D /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D587D8F12C00FB7800FB0B9D /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		D587D8F62C00FB7800FB0B9D /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D587D8F12C00FB7800FB0B9D /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		D587D8F82C00FB7800FB0B9D /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D587D8F12C00FB7800FB0B9D /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		D5901E092BFE27ED00950CA1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5901E082BFE27ED00950CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D5901E0B2BFE27ED00950CA1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5901E082BFE27ED00950CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		D5901E0D2BFE27ED00950CA1 /* FirebaseVertexAI-Preview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5901E082BFE27ED00950CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseVertexAI-Preview";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5901DCF2BFE224E00950CA1 /* Project object */;
 }
