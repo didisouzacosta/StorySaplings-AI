@@ -64,7 +64,7 @@ extension Tale {
                         Sua real aparência, ao fim, ele recuperou,
                         O bravo guerreiro em glória retornou.
                         """,
-                        image: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/Histories/frog_the_brave/page_3.jpg?raw=true")!
+                        image: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/Histories/frog_the_brave/page_4.jpg?raw=true")!
                     )
                 ],
                 isFree: true,
