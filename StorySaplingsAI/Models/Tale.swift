@@ -27,44 +27,47 @@ extension Tale {
         [
             .init(
                 id: 1,
-                title: "Os 3 porquinhos",
-                cover: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/the_three_little_pigs_cover.jpg?raw=true")!,
+                title: "Frog o bravo",
+                cover: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/Histories/frog_the_brave/cover.jpg?raw=true")!,
                 history: [
                     .init(
                         text: """
-                        Três porquinhos saíram, querendo construir
-                        Casas próprias, para nelas poderem residir.
-                        O primeiro usou palha, fácil e ligeira,
-                        O segundo escolheu madeira, obra passageira.
-                        O terceiro, mais sábio, optou por tijolos,
-                        Trabalho árduo, mas firme, sem rolos.
+                        Em tempos de honra e valor,
+                        Um guerreiro, bravo, lutava sem temor.
+                        Ao lado do mestre, em batalha dura,
+                        Enfrentou um mago de era futura.
                         """,
-                        image: URL(string: "https://moralstoryminute.com/wp-content/uploads/2023/11/The-Three-Little-Pigs-Story-with-Moral.jpg")!
+                        image: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/Histories/frog_the_brave/page_1.jpg?raw=true")!
                     ),
                     .init(
                         text: """
-                        Os dois porquinhos correram, cheios de medo,
-                        Para a casa de tijolos, encontrar um segredo.
-                        O lobo soprou, com toda a sua energia,
-                        Mas a casa de tijolos, firme, resistia.
-                        Frustrado e cansado, o lobo desistiu,
-                        E para a floresta, sozinho partiu.
+                        Com feitiço cruel, o mago o transformou,
+                        Num sapo frágil, a vida mudou.
+                        Recluso em pântano, amigos encontrou,
+                        Em duras batalhas, a honra revelou.
                         """,
-                        image: URL(string: "https://www.qad.com/blog/wp-content/uploads/2021/02/02.25.2021.png")!
+                        image: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/Histories/frog_the_brave/page_2.jpg?raw=true")!
                     ),
                     .init(
                         text: """
-                        Os três porquinhos, juntos, celebraram,
-                        A força e a coragem que demonstraram.
-                        Na casa de tijolos, seguros ficaram,
-                        E a importância do trabalho duro valorizaram.
-                        Felizes, entenderam a lição do labor,
-                        Que esforço e prudência trazem mais valor.
+                        Lutando com força, a amizade cresceu,
+                        Com novos amigos, o medo morreu.
+                        Juntos venceram perigos sem fim,
+                        A coragem guiava, o destino, enfim.
                         """,
-                        image: URL(string: "https://artifactsgallery.com/art/20925.jpg")!
+                        image: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/Histories/frog_the_brave/page_3.jpg?raw=true")!
+                    ),
+                    .init(
+                        text: """
+                        O mestre vingou, o mago caiu,
+                        Com força e coragem, o bem ressurgiu.
+                        Sua real aparência, ao fim, ele recuperou,
+                        O bravo guerreiro em glória retornou.
+                        """,
+                        image: URL(string: "https://github.com/didisouzacosta/StorySaplings-AI/blob/main/StorySaplingsAI/Resources/Histories/frog_the_brave/page_3.jpg?raw=true")!
                     )
                 ],
-                isFree: false,
+                isFree: true,
                 author: "David Wiesner"
             )
         ]

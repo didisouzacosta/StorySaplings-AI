@@ -67,7 +67,6 @@ struct TaleScreenView: View {
                                 Text(tale.author)
                                     .font(.caption)
                             }
-                            .foregroundStyle(.white)
                             
                             Spacer()
                             
@@ -108,7 +107,6 @@ struct TaleScreenView: View {
                                 HStack {
                                     Text(part.text)
                                         .padding()
-                                        .foregroundStyle(.white)
                                         .multilineTextAlignment(.center)
                                     
                                     Spacer()
@@ -125,7 +123,6 @@ struct TaleScreenView: View {
                             
                             Text("Fim")
                                 .font(.title)
-                                .foregroundStyle(.white)
                             
                             Spacer()
                             
@@ -168,7 +165,6 @@ struct TaleScreenView: View {
                     }
                     
                     Text(pageDescription)
-                        .foregroundStyle(.white)
                     
                     Button {
                         next()
